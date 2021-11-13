@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import Title from '../../components/Title/Title'
 import Button from '../../components/Button/Button'
 
 import styles from './Example.module.scss'
-import image from '../../assets/images/cat.png'
+import api from '../../axios/index'
 
 const ExamplePage = () => {
-  //const image = ''
+  const [image, setImage] = useState({ url: '' })
+
+  const getCat = async () => {
+    let response = await api.get()
+    setImage(response.data[0])
+  }
+
+  useEffect(() => {
+    getCat()
+  }, [])
 
   return (
     <>
@@ -15,14 +24,11 @@ const ExamplePage = () => {
       <section className='container'>
         <div className={styles.example}>
           <h3 className={styles.example__title}>Картинка с котом</h3>
-          <img
+          <div
             className={styles.example__img}
-            src={image}
-            width='258'
-            height='258'
-            alt='cat' />
+            style={{ background: `url(${image.url}) no-repeat` }}></div>
         </div>
-        <Button text='Загрузить другую' />
+        <Button text='Загрузить другую' func={getCat} />
       </section>
     </>
   )
