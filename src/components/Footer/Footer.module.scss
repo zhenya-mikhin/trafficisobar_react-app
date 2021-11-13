@@ -1,0 +1,13 @@
+@import './../../styles/variables.scss';
+
+.footer {
+  position: relative;
+  height: 112px;
+  margin-top: 101px;
+  background-color: $background-dark;
+
+  .copyright {
+    position: absolute;
+    top: 45%;
+  }
+}

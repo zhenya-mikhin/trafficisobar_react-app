@@ -1,0 +1,23 @@
+@import './../../styles/variables.scss';
+
+.header {
+  background-color: $background-dark;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding-top: 36px;
+    padding-bottom: 40px;
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    margin-left: 26px;
+  }
+}

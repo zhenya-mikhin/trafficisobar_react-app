@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+.description {
+  width: 572px;
+
+  &__title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: capitalize;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: capitalize;
+  }
+}
+
+.img {
+  border-radius: 50%;
+}

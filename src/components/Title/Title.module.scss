@@ -1,0 +1,32 @@
+@import './../../styles/variables.scss';
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: $primary-color;
+  text-align: center;
+}
+
+.before,
+.after {
+  width: 156px;
+  border: 2px solid $primary-color;
+}
+
+.before {
+  margin-right: 28px;
+}
+.after {
+  margin-left: 28px;;
+}
