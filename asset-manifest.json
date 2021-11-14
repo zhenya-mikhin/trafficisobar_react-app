@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trafficisobar_react-app/static/css/main.56c15c96.chunk.css",
+    "main.css": "/trafficisobar_react-app/static/css/main.d3e48e1f.chunk.css",
     "main.js": "/trafficisobar_react-app/static/js/main.ac0e46c3.chunk.js",
     "main.js.map": "/trafficisobar_react-app/static/js/main.ac0e46c3.chunk.js.map",
     "runtime-main.js": "/trafficisobar_react-app/static/js/runtime-main.dfdab0c4.js",
@@ -10,7 +10,7 @@
     "static/js/2.6c1cb325.chunk.js.map": "/trafficisobar_react-app/static/js/2.6c1cb325.chunk.js.map",
     "index.html": "/trafficisobar_react-app/index.html",
     "static/css/2.3c526f5d.chunk.css.map": "/trafficisobar_react-app/static/css/2.3c526f5d.chunk.css.map",
-    "static/css/main.56c15c96.chunk.css.map": "/trafficisobar_react-app/static/css/main.56c15c96.chunk.css.map",
+    "static/css/main.d3e48e1f.chunk.css.map": "/trafficisobar_react-app/static/css/main.d3e48e1f.chunk.css.map",
     "static/js/2.6c1cb325.chunk.js.LICENSE.txt": "/trafficisobar_react-app/static/js/2.6c1cb325.chunk.js.LICENSE.txt",
     "static/media/about-img.cba4832e.png": "/trafficisobar_react-app/static/media/about-img.cba4832e.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.dfdab0c4.js",
     "static/css/2.3c526f5d.chunk.css",
     "static/js/2.6c1cb325.chunk.js",
-    "static/css/main.56c15c96.chunk.css",
+    "static/css/main.d3e48e1f.chunk.css",
     "static/js/main.ac0e46c3.chunk.js"
   ]
 }
