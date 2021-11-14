@@ -1,4 +1,5 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
@@ -9,8 +10,10 @@ const App = () => {
   return (
     <>
       <Header />
-      <MainPage />
-      <ExamplePage />
+      <Routes>
+        <Route path='/' exact element={<MainPage />} />
+        <Route path='/example' exact element={<ExamplePage />} />
+        </Routes>
       <Footer />
     </>
   )

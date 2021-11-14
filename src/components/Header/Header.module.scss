@@ -13,11 +13,27 @@
   }
 
   &__link {
+    margin-left: 26px;
+
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    color: $light-text-color;
+    text-decoration: none;
 
-    margin-left: 26px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
   }
+}
+
+.active {
+  border-bottom: 1px solid #F44A1E;
 }
