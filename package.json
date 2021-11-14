@@ -2,8 +2,10 @@
   "name": "trafficisobar_react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zhenya-mikhin.github.io/trafficisobar_react-app/",
   "dependencies": {
     "axios": "^0.24.0",
+    "gh-pages": "^3.2.3",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -12,6 +14,8 @@
     "sass": "^1.43.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
