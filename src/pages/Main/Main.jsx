@@ -13,9 +13,10 @@ const MainPage = () => {
       <section className='container'>
         <div className={styles.about}>
           <div className={styles.description}>
-            <h3 className={styles.description__title}>Sed ut perspiciatis</h3>
+            <h3 className={styles.description__title}>Евгений Михин</h3>
             <p className={styles.description__text}>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+              Здравствуйте! Меня зовут Евгений. В IT сфере около года, специализируюсь на React JS, TypeScript, Redux. Окончил курсы в HTML Academy по вёрстке и js. Владею навыками адаптивной кроссбраузерной верстки, применения препроцессоров less sass scss, фреймворка React, а так де Redux, React-Redux, Reselect, React Router, REST API, Axios, Redux-form, Redux-saga. Умею грамотно писать Ajax запросы к API, понимаю принцип построения SPA, понимаю принцип работы по TDD, Jest, понимаю FLUX круговорот (UserInterface - BusinessLogicLayer - DataAccessLayer), Применял паттерны программирования, такие как MVC, MVP, MVVM. Умею работать с Git.
+              Умею построить весь проект с нуля, используя Redux state и хуки в функциональных компонентах, использую современный подход без классовых компонентов на проекте, но хорошо знаю и умею применять их, CSS через component.module.css. Умею работать Redux State, Route, умею писать HOC, так же ознакомлен с принципами ООП, понимаю жизненный цикл компоненты, разделения на контейнерную и презентационную компоненту. Dispatch, ActionCreator, ThunkCreator.
             </p>
           </div>
           <img
