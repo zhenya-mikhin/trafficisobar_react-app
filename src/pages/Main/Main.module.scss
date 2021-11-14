@@ -1,3 +1,5 @@
+@import './../../styles/variables.scss';
+
 .about {
   display: flex;
   justify-content: space-between;
@@ -26,4 +28,52 @@
 
 .img {
   border-radius: 50%;
+}
+
+@media (max-width: $tablet-width) {
+  .about {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .description {
+    width: 360px;
+
+    &__title {
+      font-size: 34px;
+      line-height: 37px;
+    }
+
+    &__text {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .description {
+    width: 300px;
+    padding: 0 20px;
+
+    &__title {
+      font-size: 24px;
+      line-height: 27px;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  .img {
+    display: none;
+  }
 }

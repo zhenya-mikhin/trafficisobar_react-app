@@ -10,4 +10,14 @@
     position: absolute;
     top: 45%;
   }
+
+  @media (max-width: $tablet-width) {
+    margin-top: 50px;
+    height: 75px;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-top: 25px;
+    height: 52px;
+  }
 }

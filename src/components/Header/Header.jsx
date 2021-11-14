@@ -23,7 +23,7 @@ const HeaderComponent = () => {
       <div className="container">
         <div className={styles.header__container}>
           <GlobalSvgSelector id='header-logo' />
-          <nav>
+          <nav className={styles.header__nav}>
             <Link
               to='/'
               className={`${styles.header__link} ${activeMain}`}
