@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trafficisobar_react-app/static/css/main.56c15c96.chunk.css",
-    "main.js": "/trafficisobar_react-app/static/js/main.1224018a.chunk.js",
-    "main.js.map": "/trafficisobar_react-app/static/js/main.1224018a.chunk.js.map",
+    "main.js": "/trafficisobar_react-app/static/js/main.ac0e46c3.chunk.js",
+    "main.js.map": "/trafficisobar_react-app/static/js/main.ac0e46c3.chunk.js.map",
     "runtime-main.js": "/trafficisobar_react-app/static/js/runtime-main.dfdab0c4.js",
     "runtime-main.js.map": "/trafficisobar_react-app/static/js/runtime-main.dfdab0c4.js.map",
     "static/css/2.3c526f5d.chunk.css": "/trafficisobar_react-app/static/css/2.3c526f5d.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.3c526f5d.chunk.css",
     "static/js/2.6c1cb325.chunk.js",
     "static/css/main.56c15c96.chunk.css",
-    "static/js/main.1224018a.chunk.js"
+    "static/js/main.ac0e46c3.chunk.js"
   ]
 }
